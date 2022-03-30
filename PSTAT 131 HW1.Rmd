@@ -1,0 +1,35 @@
+---
+title: "PSTAT 131 HW1 - Exploratory Data Analysis"
+author: "Jenny Do (5669841)"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: github_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This section will ask you to complete several exercises. For this homework assignment, we’ll be working with the mpg data set that is loaded when you load the tidyverse. Make sure you load the tidyverse and any other packages you need.
+
+Exploratory data analysis (or EDA) is not based on a specific set of rules or formulas. It is more of a state of curiosity about data. It’s an iterative process of:
+
+- generating questions about data
+- visualize and transform your data as necessary to get answers
+- use what you learned to generate more questions
+
+A couple questions are always useful when you start out. These are “what variation occurs within the variables,” and “what covariation occurs between the variables.”
+
+You should use the tidyverse and ggplot2 for these exercises.
+```{r}
+# Load the needed data, mpg data set 
+data(mpg)
+# Load tidyverse and ggplot2 
+library(tidyverse)
+library(ggplot2)
+```
+
+## Exercise 1:
+We are interested in highway miles per gallon, or the hwy variable. Create a histogram of this variable. Describe what you see/learn.
+
+## Exercise 2:
+Create a scatterplot. Put hwy on the x-axis and cty on the y-axis. Describe what you notice. Is there a relationship between hwy and cty? What does this mean?
+##Exercise 3:
+Make a bar plot of manufacturer. Flip it so that the manufacturers are on the y-axis. Order the bars by height. Which manufacturer produced the most cars? Which produced the least?
