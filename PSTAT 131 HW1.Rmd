@@ -72,7 +72,7 @@ Mechanistic models tend to be generalizable which means they have a higher bias 
 
 * **Given a voter’s profile/data, how likely is it that they will vote in favor of the candidate?**
 
-This question could be classified as predictive. This is because we are looking at all the features we have--the combination of features that produces the best fit. We look at all the data (all features for a single voter) and predict if those factors make a voter more likely to vote in favor of a candidate. 
+This question could be classified as predictive. This is because we are looking at all the features we have--the combination of features that produces the best fit. We look at all the data (all features for a single voter) and predict if those elements make a voter more likely to vote in favor of a candidate. 
 
 * **How would a voter’s likelihood of support for the candidate change if they had personal contact with the candidate?**
 
@@ -131,11 +131,13 @@ p2 <- ggplot(mpg, aes(x=hwy, y=cty)) + geom_point() +
   geom_smooth(method='lm', formula= y~x)
 p2 
 ```
-Answer(Exercise 2): After creating a scatterplot (hwy on the x-axis and cty on the y-axis), we can see that there is a relationship (positive correlation) between the two variables. This means that as highway miles per gallon increases, city miles per gallon increases. In addition, we note that there might be some outliers (past 40 and on the lower end of 20 - this matches what we saw in Exercise 1 above). 
+Note: Added a trendline to the scatterplot for better analysis. 
+
+Answer(Exercise 2): After creating a scatterplot (hwy on the x-axis and cty on the y-axis), we can see that there is a relationship (positive correlation) between the two variables. This means that as highway miles per gallon increases, city miles per gallon increases. In addition, we note that there might be some outliers (past 40). 
 
 (Reference: https://www.texasgateway.org/resource/interpreting-scatterplots) 
 
-##Exercise 3:
+## Exercise 3:
 **Make a bar plot of manufacturer. Flip it so that the manufacturers are on the y-axis. Order the bars by height. Which manufacturer produced the most cars? Which produced the least?**
 
 Note: As the prompt did not specify if order ascending or descending, we will be ordering the bars by increasing height. 
