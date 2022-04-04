@@ -80,7 +80,7 @@ This question could be classified as predictive. This is because we are looking 
 
 This question could be classified as inferential. This is because we are testing one feature (isolate one feature and try to see what happens when it changes): if a voter had personal contact with the candidate. The question is posed in a way that aims to test the theory that voters who have had personal contact with the candidate might be more or less likely to support the candidate.
 
-(Reference: Lecture 2 Slide 6)
+(Reference: Lecture 2 Slide 7)
 
 # Exploratory Data Analysis
 This section will ask you to complete several exercises. For this homework assignment, we’ll be working with the mpg data set that is loaded when you load the tidyverse. Make sure you load the tidyverse and any other packages you need.
