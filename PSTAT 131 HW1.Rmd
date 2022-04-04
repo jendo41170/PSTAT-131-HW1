@@ -65,6 +65,8 @@ In general, I believe that the mechanistic model is easier to understand. This i
 
 Mechanistic models tend to be generalizable which means they have a higher bias and a lower variance. In contrast, empirically-driven models will have a lower bias and a higher variance. Therefore, with both types of models, this bias-variance tradeoff is always present. The challenge is finding a method for which both the variance and bias are low (this is our goal, want this to be achieved simultaneously). 
 
+(Reference: Lecture 2 Slide 6)
+
 ## Question 6:
 **Classify each question as either predictive or inferential. Explain your reasoning for each.**
 
